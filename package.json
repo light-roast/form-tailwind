@@ -1,0 +1,15 @@
+{
+  "name": "form-wailwind",
+  "version": "1.0.0",
+  "description": "A responsive form using tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tail": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/style.css --watch"
+  },
+  "author": "Daniel Echeverri",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
